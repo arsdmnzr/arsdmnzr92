@@ -1,0 +1,172 @@
+html{
+    font-size: 62%;
+}
+
+
+body{
+    background-image: url(images/2.jpeg);
+    height: 100vh;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.wrapper{
+    width: 20rem;
+    margin: auto;
+    
+}
+
+.header{
+    background-image: url('images/logo.png');
+    height: 100vh;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.nav-area{
+    float: top right;
+    list-style: none;
+   padding: 2rem;
+}
+
+.nav-area li{
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 2rem;
+
+}
+
+.nav-area li a{
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem;
+    font-family: poppins;
+    font-size: 2rem;
+    border: 0.1rem solid rgb(12, 1, 1);
+    border-radius: 1.5rem;
+    margin: 1rem;
+    
+}
+
+.nav-area li a:hover{
+    background: black;
+    color: tomato;
+
+
+}
+
+.logo img{
+width: 10rem;
+float: left;
+height: auto;
+}
+
+.welcome-text{
+    position:absolute;
+    width: 60rem;
+    height: 30rem;
+    margin: 20% 30%;
+    text-align: center;
+}
+
+.welcome-text h1{
+    text-align: center;
+    color: tomato;
+    font-size: 6rem;
+}
+
+.welcome-text a{
+    border: 0.1rem solid rgb(10, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    display: inline-block;
+    border-radius: 2rem;
+    color: black;
+    padding: 1rem;
+}
+
+.welcome-text a:hover{
+    background: black;
+    color: tomato;
+}
+
+/*contact us cc*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/2.jpeg);
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    width: 80rem;
+    margin: 5% auto;
+}
+
+.form-area{
+    display: flex;
+    background: rgba(197, 179, 179, 0.8);
+    border-radius: 2.5rem;
+    padding: 1.9rem;
+}
+
+.msg-area{
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+
+.msg-area > textarea{
+    flex: 1;
+    min-width: 18rem;
+    background: transparent;
+    color: #fff;
+    padding: 1.5rem;
+}
+
+.details-area{
+    flex: 1;
+    order: 1;
+    margin-right: 2rem;
+}
+
+.details-area input{
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    border-radius: 4rem;
+}
+
+.details-area input,
+.details-area button{
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.details-area button{
+    background: tomato;
+    color: #fff;
+    border: 0;
+    padding: 1.5rem 5rem;
+    border-radius: 4rem;
+    font-family: poppins;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+label{
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 4rem;
+    fonnt font-family: Audiowide;
+}
